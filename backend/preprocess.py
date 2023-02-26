@@ -17,6 +17,8 @@ class Model(object):
         self.observation = None
         self.labels = {'avg': 0, 'excellent': 1, 'high': 2, 'low': 3}
 
+        
+
     def __repr__(self):
         print(f'Data passed : {self.observation}\n Model: {self.model}')
 
